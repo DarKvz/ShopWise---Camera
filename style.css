@@ -1,0 +1,264 @@
+.AR-scan {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.AR-scan .overlap-wrapper {
+  background-color: #ffffff;
+  width: 428px;
+  height: 926px;
+}
+
+.AR-scan .overlap {
+  position: relative;
+  height: 926px;
+  background-image: url(./img/photo-1590683885822-a7cc6db9507e-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.AR-scan .AR-effect {
+  position: absolute;
+  width: 382px;
+  height: 467px;
+  top: 220px;
+  left: 31px;
+}
+
+.AR-scan .tab {
+  position: absolute;
+  width: 159px;
+  height: 44px;
+  top: 44px;
+  left: 254px;
+  background-color: var(--ios-blur-system-ultra-thin-material);
+  border-radius: 15px;
+  backdrop-filter: blur(32px) brightness(100%);
+  -webkit-backdrop-filter: blur(32px) brightness(100%);
+  box-shadow: var(--system-ultra-thin-material);
+}
+
+.AR-scan .overlap-group {
+  position: absolute;
+  width: 74px;
+  height: 40px;
+  top: 2px;
+  left: 2px;
+  background-color: var(--black);
+  border-radius: 15px;
+}
+
+.AR-scan .text-wrapper {
+  position: absolute;
+  top: 11px;
+  left: 26px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: var(--blue);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.56px;
+  line-height: normal;
+}
+
+.AR-scan .object {
+  position: absolute;
+  top: 13px;
+  left: 92px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.56px;
+  line-height: normal;
+}
+
+.AR-scan .button-context {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 44px;
+  left: 19px;
+  background-color: var(--ios-blur-system-ultra-thin-material);
+  border-radius: 21.5px;
+  backdrop-filter: blur(32px) brightness(100%);
+  -webkit-backdrop-filter: blur(32px) brightness(100%);
+  box-shadow: var(--system-ultra-thin-material);
+}
+
+.AR-scan .icon-context {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 9px;
+  left: 9px;
+}
+
+.AR-scan .camera-action-botton {
+  position: absolute;
+  width: 412px;
+  height: 93px;
+  top: 794px;
+  left: 16px;
+}
+
+.AR-scan .kamera-logo {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  left: 160px;
+}
+
+.AR-scan .div {
+  position: relative;
+  height: 75px;
+}
+
+.AR-scan .screenshot {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+.AR-scan .overlap-group-2 {
+  position: relative;
+  width: 81px;
+  height: 81px;
+  top: -3px;
+  left: -3px;
+  border-radius: 40.5px;
+}
+
+.AR-scan .ellipse {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 6px;
+  left: 6px;
+  background-color: #ffb61d;
+  border-radius: 34.09px;
+  box-shadow: 0px 2px 10px #0000001a;
+}
+
+.AR-scan .ellipse-2 {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  top: 0;
+  left: 0;
+  border-radius: 40.5px;
+  border: 3px solid;
+  border-color: #ffb61d;
+}
+
+.AR-scan .element {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.AR-scan .overlap-2 {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  top: 0;
+  left: 319px;
+}
+
+.AR-scan .ellipse-3 {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: 13px;
+  left: 13px;
+  background-color: #ffffff;
+  border-radius: 32.99px;
+  transform: rotate(-40deg);
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.AR-scan .switch-camera {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 21px;
+  left: 21px;
+  object-fit: cover;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.AR-scan .back-bottom {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 21px;
+  left: 0;
+  
+}
+
+.AR-scan .overlap-3 {
+  position: relative;
+  height: 55px;
+  border-radius: 38px;
+ 
+}
+
+.AR-scan .group {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  border-radius: 38px;
+  border: 3px solid;
+  border-color: #ff9701;
+  transform: rotate(-180deg);
+
+}
+
+.AR-scan .vector {
+  position: absolute;
+  width: 27px;
+  height: 26px;
+  top: 19px;
+  left: 14px;
+  
+}
+
+.switch-camera {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.back-bottom {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.element {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-context {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+
+
+
+
